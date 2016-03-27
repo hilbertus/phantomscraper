@@ -1,0 +1,11 @@
+# ide project files
+.idea
+nbproject
+
+# phantomscraper
+/bin/*
+/out/*
+/scrape/*
+!/scrape/wiki-countries.js
+!/scrape/wiki-country.js
+!*.gitkeep

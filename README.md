@@ -81,4 +81,4 @@ Because of this sequence of injected scripts, you should avoid working with asyn
 that the data are collected (step 4.) before your asynchronous process is finished.
 
 
-## [Licence](LICENCE)
+## [License](LICENSE)

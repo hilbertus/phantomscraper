@@ -71,9 +71,9 @@ Phantomscraper will add an url only once. You don't need to think about phantoms
 
 When you call `bin/phantomjs index.js <url> <your javascript>` phantomscraper will open your `<url>` in PhantomJs. 
 Then it 
+
 1. injects jQuery from `libs/jquery-2.2.2.min.js`, so you can use jQuery
-2. injects phantomscraper from `src/frontendscraper.js`, so you can use `phantomScraper.addData(data)` 
-and `phantomScraper.addJob(url,  'your other scripts')`
+2. injects phantomscraper from `src/frontendscraper.js`, so you can use `phantomScraper.addData(data)` and `phantomScraper.addJob(url,  'your other scripts')`
 3. injects your script `<your javascript>`
 4. injects code to collect data and further jobs you added to `phantomscraper`
 
